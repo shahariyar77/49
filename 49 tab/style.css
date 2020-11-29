@@ -1,0 +1,54 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat,Philosopher,Roboto;
+    
+}
+
+
+
+/*========================   Nav manu ==================*/
+
+body {
+  font-size: 18px;
+  line-height: 2;
+}
+.section-padding {
+	padding: 100px 0;
+}
+.tab-list {
+  border-bottom: 2px solid #e0e0e0;
+  margin: 0 0 30px;
+  padding: 0;
+  list-style: none;
+}
+.tab-list li {
+  display: inline-block;
+}
+.tab-list li a {
+  display: block;
+  color: #666;
+  padding: 10px 20px;
+  position: relative;
+}
+.tab-list li.active a {
+  color: #f9214c;
+}
+.tab-list li.active a::after{
+	position: absolute;
+	left: 0;
+	bottom: -2px;
+	height: 2px;
+	width: 100%;
+	background: #f9214c;
+	content: "";
+}
+.tab-content {
+	background: black;
+	padding: 20px 30px;
+}
+
+
+
+
